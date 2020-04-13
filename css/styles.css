@@ -1,0 +1,230 @@
+/*
+Website Palette:
+#f9f7f7
+#dbe2ef
+#3f72af
+#112d4e
+*/
+/***********************TAG SELECTORS************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 35px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  margin: 0;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+hr {
+  border-style: dotted;
+  border-top: 0;
+  border-color: #112d4e;
+  border-width: 10px;
+  width: 10%;
+  margin: 100px auto;
+}
+
+/***********************CLASS SELECTORS************************/
+/***********************Containers************************/
+.Container-1 {
+  position: relative;
+  background-color: #dbe2ef;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Container-2 {
+  position: relative;
+  background-color: #3f72af;
+  color: #dbe2ef;
+  padding: 100px 0;
+  width: 100%;
+  margin: 0;
+}
+
+.Container-3 {
+  position: relative;
+  background-color: #112d4e;
+  color: #3f72af;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+/***********************Container 1 classes************************/
+.C1-Main {
+  position: relative;
+  color: #3f72af;
+  padding-top: 10px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.Img-PixieDust {
+  position: absolute;
+  height: 450px;
+  width: 100%;
+  left: 0;
+  bottom: 200px;
+}
+
+.h1-Abhi {
+  font-size: 5.2rem;
+  padding-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.p-Quote {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 100px;
+}
+
+
+/*
+.Img-AbhiChibiSide {
+  position: absolute;
+  right: 3%;
+  bottom: 70px;
+  width: 170px;
+  height: 300px;
+}
+
+.Img-AbhiChibiSideFlipped {
+  position: absolute;
+  left: 3%;
+  top: 70px;
+  width: 170px;
+  height: 300px;
+}
+*/
+.Img-TorontoSkyline {
+  position: relative;
+  height: 310px;
+  width: 100%;
+  bottom: -5px;
+}
+
+/***********************Container 2 classes************************/
+.Img-AbhiPeach {
+  position: relative;
+  left: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.Intro {
+  width: 50%;
+  margin: auto;
+}
+
+.Img-RubikCube {
+  position: relative;
+  left: auto;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.Img-TennisBall {
+  position: relative;
+  left: auto;
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin-right: 20px;
+}
+
+.SkillRow {
+  position: relative;
+  margin: 50px auto;
+  padding: 10px 0;
+  width: 50%;
+  text-align: left;
+}
+
+.Img-AbhiChibiFront {
+  position: relative;
+  left: auto;
+  width: 200px;
+  height: 300px;
+}
+
+.ContactMessage {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.Button-ContactMe {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  color: #112d4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 20px;
+  background-color: #DBE2EF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Button-ContactMe:hover {
+  background: #112d4e;
+  color: #DBE2EF;
+  border: 0;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+/***********************Container 3 classes************************/
+.FooterLink {
+  color: #3f72af;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.FooterLink:hover {
+  color: #f9f7f7;
+}
+
+.Copyright {
+  color: #f9f7f7;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
